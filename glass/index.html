@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./myoic.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="glass-boundry">
+        <section class="glass">
+          <div class="side-bar">
+            <div class="forimg">
+              <div class="profile">
+                <img class="image" src="./myoic.jpg" alt="" />
+              </div>
+            </div>
+            <div class="links">
+              <button class="btns">
+                <a href="index.html"
+                  ><img class="icons" src="./smart-home.svg" alt="" /> <br />
+                  MY SELF</a
+                >
+              </button>
+              <button class="btns">
+                <a href="about.html"
+                  ><img class="icons" src="./contact-us.svg" alt="" /><br />
+                  SKILLS</a
+                >
+              </button>
+              <button class="btns">
+                <a href="project.html"
+                  ><img
+                    class="icons"
+                    src="./testing.svg"
+                    alt=""
+                  /><br />PROJECTS</a
+                >
+              </button>
+              <button class="btns">
+                <a href="contact.html"
+                  ><img class="icons" src="./chat.svg" alt="" /><br />CONTACT</a
+                >
+              </button>
+              <button class="btns">
+                <a href="achievement.html"
+                  ><img class="icons" src="./success.svg" alt="" /> <br />
+                  ACHIVEMENTS</a
+                >
+              </button>
+            </div>
+            <!-- <div class="games"> -->
+            <!-- <span class="games-disc disc">want to play games</span> -->
+            <!-- <span class="games-disc disc">some games?</span> -->
+            <!-- <button class="game-btn disc"> <a href="#">Click Here</a></button> -->
+            <!-- </div> -->
+          </div>
+          <div class="right-bar">
+            <div class="summary">
+              <h1 class="skill">My self</h1>
+            </div>
+            <!-- <div class="small-pic-cont">
+              <img class="small-pic" src="./myoic.jpg" alt="" />
+            </div> -->
+            <!-- <img class="small-img" src="./clint-patterson-dYEuFB8KQJk-unsplash.jpg" alt="profile"> -->
+            <div class="discription">
+              <span class="about-me">
+                An exceptionally creative individual with strong analytical
+                skills and quick learner pursuing B.Tech in Computer Science and
+                Engineering.
+                <br />
+                <br />
+
+                Looking to obtain the position of a software developer. Always
+                eager to learn something new. I'm a quick learner.
+                <br />
+                <br />
+                Proficient in JAVA, HTML, CSS , Javascript , Bootstrap and
+                learning libraries and framework like REACT.
+                <br />
+                <br />
+                My hobies are Origami ,watching movies & web series.
+                <br />
+                <br />
+                I have basic knowledge of Cars & Stock Market.
+              </span>
+            </div>
+            <!-- <div class="tests">
+              <h1 class="tilt">*Hover</h1>
+            </div> -->
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".glass"), {
+        max: 25,
+        speed: 400,
+        "max-glare": 0.5,
+        glare: true,
+        // reverse:true,
+      });
+    </script>
+  </body>
+</html>
