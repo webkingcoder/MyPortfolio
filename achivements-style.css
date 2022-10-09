@@ -142,6 +142,10 @@ main {
   justify-content: center;
   overflow: auto;
 }
+
+.right-bar::-webkit-scrollbar {
+  display: none;
+}
 .summary {
   position: absolute;
   top: 0;
